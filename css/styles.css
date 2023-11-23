@@ -1,0 +1,78 @@
+header, footer{
+    background-color: rgb(22, 56, 101);
+}
+footer{
+   margin-top: auto;
+    width: 100%;
+ 
+  }
+  
+body{
+  
+    min-height: 100vh;
+  
+ 
+    
+}
+
+
+i, .navbar-brand {
+    color: wheat;
+  }
+  
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+#contenedorgral{
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    min-height: 100vh;
+    overflow: auto ;
+
+}
+.cartas2{
+    padding-left: 2rem;
+}
+#boton{
+    background-color: rgb(22, 56, 101);
+    color: wheat;
+    border-color: wheat;
+    width: 17.9rem;
+}
+#botonMostrarCarrito{
+    background-color: rgb(22, 56, 101);
+    color: wheat;
+    border-color: wheat;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 4.2rem;
+    right: 21.5rem;
+    z-index: 1000000;
+    padding: 10px;
+    font-size: 20px;
+    
+}
+.card{
+    position: relative;
+    margin-bottom: 5px;
+    height: auto;
+ 
+    
+    
+}
+#contenedorViajesCard {
+    position: absolute;
+    top: 9rem; 
+    right: 20rem; 
+    z-index: 1000;
+  }
+.btn{
+    background-color: rgb(22, 56, 101);
+    color: wheat;
+    border-color: wheat;
+}
